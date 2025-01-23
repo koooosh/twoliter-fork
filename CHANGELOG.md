@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/bottlerocket-os/twoliter/compare/v0.7.0...HEAD
+[unreleased]: https://github.com/bottlerocket-os/twoliter/compare/v0.7.1...HEAD
+
+## [0.7.1] - 2025-01-23
+
+### Fixed
+
+- Move Docker version check to buildsys ([#442])
+- Allow the AWS SDK to find an overridden CA bundle ([#443])
+
+[#442]: https://github.com/bottlerocket-os/twoliter/pull/442
+[#443]: https://github.com/bottlerocket-os/twoliter/pull/443
+
+[0.7.1]: https://github.com/bottlerocket-os/twoliter/compare/v0.7.0...v0.7.1
 
 ## [0.7.0] - 2025-01-03
 
