@@ -3,7 +3,7 @@
 use anyhow::{ensure, Result};
 use which::which_global;
 
-const REQUIRED_TOOLS: &[&str] = &["docker", "gzip", "lz4"];
+const REQUIRED_TOOLS: &[&str] = &["gzip", "lz4"];
 
 /// Runs all common setup required for twoliter.
 ///
